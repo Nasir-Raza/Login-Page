@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.655efc2e.css",
+    "main.js": "/static/js/main.e5ee32ff.js",
+    "static/media/facebook.png": "/static/media/facebook.92efac197c0e73a9d386.png",
+    "static/media/tweeter.png": "/static/media/tweeter.68b5f028ff7f0c4005e3.png",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.1c701c9a6b587802e3d0.ttf",
+    "static/media/login.jpg": "/static/media/login.8e6cff0d7ba9088b8eb2.jpg",
+    "index.html": "/index.html",
+    "main.655efc2e.css.map": "/static/css/main.655efc2e.css.map",
+    "main.e5ee32ff.js.map": "/static/js/main.e5ee32ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.655efc2e.css",
+    "static/js/main.e5ee32ff.js"
+  ]
+}
