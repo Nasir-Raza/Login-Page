@@ -23,15 +23,25 @@ function LoginPage() {
           <label id="rememberme" htmlFor="remember">
             Remember me
           </label>
-          <label id="fgpassword">Forgot Password&#63;</label>
+          <label id="fgpassword"><a id="linkfgp" href=" ">Forgot Password&#63;</a></label>
         </div>
         
         <button>Login</button>
-        <label>or sign up using</label>
+        <label id="signupusing">or sign up using</label>
         
         <div>
-          <img className="social" src={facebookicon} alt="facebook"></img>
+        <a href=" ">
+        <img id="facebook" className="social" src={facebookicon} alt="facebook"></img>
+
+        
+
           <img className="social" src={tweetericon} alt="tweeter"></img>
+    </a>
+
+
+
+
+          
         </div>
 
       </div>

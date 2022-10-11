@@ -15,7 +15,7 @@ html {
 
 .mainheading {
     margin-bottom: 12%;
-    font-weight:normal;
+    font-weight: normal;
 }
 
 .left {
@@ -42,15 +42,21 @@ img {
 .chk-rem {
     height: 20px;
     width: 20px;
+    cursor: pointer;
 }
 
 #rememberme {
     font-size: 1em;
     margin-left: 1%;
+    cursor: pointer;
 }
 
 #fgpassword {
     margin-left: 30%;
+}
+
+#linkfgp {
+    text-decoration: none;
 }
 
 input {
@@ -69,6 +75,12 @@ button {
     background-color: slateblue;
     color: white;
     font-size: 1.3em;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: black;
 }
 
 .remember {
@@ -76,8 +88,13 @@ button {
     align-items: center;
 }
 
+#signupusing {
+    cursor:text;
+}
+
 .social {
     margin-top: 5%;
+    margin-right: 2%;
     height: 35px;
     width: 35px;
 }
