@@ -17,31 +17,23 @@ function LoginPage() {
         <h1 className="mainheading">Login to continue</h1>
         <input type="text" name="email" id="email" placeholder="Email" />
         <input type="password" name="password" id="password" placeholder="Password" />
-        
+
         <div className="remember">
-          <input type="checkbox" name="remember" id="remember" className="chk-rem" />
           <label id="rememberme" htmlFor="remember">
+            <input type="checkbox" name="remember" id="remember" className="chk-rem" />
             Remember me
           </label>
           <label id="fgpassword"><a id="linkfgp" href=" ">Forgot Password&#63;</a></label>
         </div>
-        
+
         <button>Login</button>
         <label id="signupusing">or sign up using</label>
-        
+
         <div>
-        <a href=" ">
-        <img id="facebook" className="social" src={facebookicon} alt="facebook"></img>
-
-        
-
-          <img className="social" src={tweetericon} alt="tweeter"></img>
-    </a>
-
-
-
-
-          
+          <a href=" ">
+            <img id="facebook" className="social" src={facebookicon} alt="facebook"></img>
+            <img className="social" src={tweetericon} alt="tweeter"></img>
+          </a>
         </div>
 
       </div>
